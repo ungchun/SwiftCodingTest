@@ -67,6 +67,7 @@
 		BCD7B2FC284C4C19008110C7 /* S3_2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3_2606.swift; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CT_CommandLineTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CT_CommandLineTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BCEA6F5F284DCA2500C18EB8 /* S2_11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2_11724.swift; sourceTree = "<group>"; };
 		BCF08D142847337800B5A072 /* S3_1449.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3_1449.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +130,7 @@
 				BC30306F284A00D600E6D49A /* S4_1783.swift */,
 				BC5DABB4284B4B48000A85E9 /* S2_1260.swift */,
 				BCD7B2FC284C4C19008110C7 /* S3_2606.swift */,
+				BCEA6F5F284DCA2500C18EB8 /* S2_11724.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
