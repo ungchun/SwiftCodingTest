@@ -4,6 +4,9 @@ import Foundation
 let input = readLine()!.split(separator: " ").map{ Int(String($0))! }
 let (M, N, K) = (input[0], input[1], input[2])
 
+// x : 0  0 1 -1
+// y : 1 -1 0  0
+// (0,1) (0,-1) (1,0) (-1,0) -> x, y 인덱스 순서대로 출력하면 상 하 좌 우
 let dx = [0, 0, 1, -1]
 let dy = [1, -1, 0, 0]
 
@@ -11,7 +14,9 @@ var map = Array(repeating: Array(repeating: 0, count: N), count: M)
 
 for _ in 0..<K {
     let xy = readLine()!.split(separator: " ").map { Int(String($0))! }
-    map[xy[0]][xy[1]] = 1
+    let x = xy[0]
+    let y = xy[1]
+    map[x][y] = 1
 }
 
 for m in map {
