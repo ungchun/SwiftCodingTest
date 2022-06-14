@@ -28,7 +28,7 @@ func DFS(start: Int) {
         if !visited.contains(node) {
             visited.append(node)
             print(node, terminator: " ")
-            stack.append(contentsOf: graph[node].sorted(by: >))
+            stack.append(contentsOf: graph[node].sorted(by: >)) // 문제에서처럼 정점 번호가 작은 것을 먼저 방문 이런 예외가 있을 경우에만 sort 돌려주기
         }
         print("stack \(stack)")
     }
@@ -44,7 +44,7 @@ func BFS(start: Int) {
         if !visited.contains(node) {
             visited.append(node)
             print(node, terminator: " ")
-            queue.append(contentsOf: graph[node].sorted())
+            queue.append(contentsOf: graph[node].sorted()) //
         }
         print("queue \(queue)")
     }
