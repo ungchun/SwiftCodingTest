@@ -79,6 +79,7 @@
 		BCF2F49C2854AF7900C20A8C /* S2_1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2_1012.swift; sourceTree = "<group>"; };
 		BCF2F49D2854ED7300C20A8C /* S2_4963.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2_4963.swift; sourceTree = "<group>"; };
 		BCF798342857072B0009A78C /* G3_2437.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G3_2437.swift; sourceTree = "<group>"; };
+		BCFE01BF285A1A36007F96DE /* S4_2839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S4_2839.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +149,7 @@
 				BCF2F49D2854ED7300C20A8C /* S2_4963.swift */,
 				BC2EDB7C28559205003D128B /* S1_1080.swift */,
 				BCC4F9AC2858AAC3006FBB56 /* S2_2644.swift */,
+				BCFE01BF285A1A36007F96DE /* S4_2839.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
