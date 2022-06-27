@@ -1,3 +1,6 @@
+
+import Foundation
+
 while let input = readLine() {
     
     let numArray = input.split(separator: " ").map{Int(String($0))!}
@@ -15,3 +18,4 @@ while let input = readLine() {
     print(count)
     
 }
+
