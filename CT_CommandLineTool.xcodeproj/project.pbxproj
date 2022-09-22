@@ -25,6 +25,10 @@
 
 /* Begin PBXFileReference section */
 		BC05F24F284EF31E0053681D /* S2_11725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2_11725.swift; sourceTree = "<group>"; };
+		BC0CC13328DC1B2500B4C5D1 /* S1_2667_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S1_2667_2.swift; sourceTree = "<group>"; };
+		BC0CC13428DC343400B4C5D1 /* S2_11724_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2_11724_2.swift; sourceTree = "<group>"; };
+		BC0CC13528DC3D5200B4C5D1 /* S4_2839_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S4_2839_2.swift; sourceTree = "<group>"; };
+		BC0CC13628DC4F3200B4C5D1 /* S4_1026_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S4_1026_2.swift; sourceTree = "<group>"; };
 		BC0FE777289E09B20022B907 /* Lv1_약수의 개수와 덧셈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_약수의 개수와 덧셈.swift"; sourceTree = "<group>"; };
 		BC24929428BE0562003FC64A /* B2_2864.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2_2864.swift; sourceTree = "<group>"; };
 		BC24929528BE05D5003FC64A /* S5_1969.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S5_1969.swift; sourceTree = "<group>"; };
@@ -175,13 +179,17 @@
 				BCF2F49C2854AF7900C20A8C /* S2_1012.swift */,
 				BCF2F49D2854ED7300C20A8C /* S2_4963.swift */,
 				BC2EDB7C28559205003D128B /* S1_1080.swift */,
-				BCC4F9AC2858AAC3006FBB56 /* S2_2644.swift */,
 				BCFE01BF285A1A36007F96DE /* S4_2839.swift */,
+				BCC4F9AC2858AAC3006FBB56 /* S2_2644.swift */,
 				BC8D704E285C08DD00AF3C37 /* S1_2667.swift */,
 				BC24929528BE05D5003FC64A /* S5_1969.swift */,
 				BC96D74B28DB38B4001F9B75 /* S2_1260_2.swift */,
 				BC96D74C28DB4722001F9B75 /* S2_4963_2.swift */,
 				BC96D74D28DB4E5C001F9B75 /* S2_1012_2.swift */,
+				BC0CC13328DC1B2500B4C5D1 /* S1_2667_2.swift */,
+				BC0CC13428DC343400B4C5D1 /* S2_11724_2.swift */,
+				BC0CC13528DC3D5200B4C5D1 /* S4_2839_2.swift */,
+				BC0CC13628DC4F3200B4C5D1 /* S4_1026_2.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
