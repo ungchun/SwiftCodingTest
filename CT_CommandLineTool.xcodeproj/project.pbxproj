@@ -48,6 +48,9 @@
 		BC7C636C28AE0F6B009CA843 /* Lv1_최소직사각형.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_최소직사각형.swift"; sourceTree = "<group>"; };
 		BC7C636D28AE13CC009CA843 /* Lv1_2016년.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_2016년.swift"; sourceTree = "<group>"; };
 		BC7C636E28AE1BFB009CA843 /* Lv1_예산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_예산.swift"; sourceTree = "<group>"; };
+		BC80FD2E28E4196D002A1A96 /* Lv2_이진 변환 반복하기 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_이진 변환 반복하기 .swift"; sourceTree = "<group>"; };
+		BC80FD2F28E41E59002A1A96 /* Lv2_최솟값 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_최솟값 만들기.swift"; sourceTree = "<group>"; };
+		BC80FD3028E425B6002A1A96 /* Lv2_올바른 괄호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv2_올바른 괄호.swift"; sourceTree = "<group>"; };
 		BC87721C28463F180098482C /* S5_1789.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S5_1789.swift; sourceTree = "<group>"; };
 		BC87721E284640E00098482C /* S5_10989.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S5_10989.swift; sourceTree = "<group>"; };
 		BC87721F284641230098482C /* S5_2751.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S5_2751.swift; sourceTree = "<group>"; };
@@ -243,6 +246,9 @@
 				BC88ED0C28B359DC000181C6 /* 쿼드트리예제.swift */,
 				BC40BE8A28DDCE7600FFD842 /* Lv2_최댓값과 최솟값.swift */,
 				BC40BE8B28DDDE8000FFD842 /* Lv2_JadenCase 문자열 만들기.swift */,
+				BC80FD2E28E4196D002A1A96 /* Lv2_이진 변환 반복하기 .swift */,
+				BC80FD2F28E41E59002A1A96 /* Lv2_최솟값 만들기.swift */,
+				BC80FD3028E425B6002A1A96 /* Lv2_올바른 괄호.swift */,
 			);
 			name = "프로그래머스";
 			path = "프로그래머스";
