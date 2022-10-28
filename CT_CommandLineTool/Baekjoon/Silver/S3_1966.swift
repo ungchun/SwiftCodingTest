@@ -1,35 +1,52 @@
 import Foundation
 
-let testCase = Int(readLine()!)!
+let T = Int(readLine()!)!
 
-for _ in 1...testCase {
-    let inputNM = readLine()!.split(separator: " ").map { Int($0)! }
-    let m = inputNM[1]
+for _ in 0..<T {
+    let NM = readLine()!.split(separator: " ").map {Int(String($0))!}
+    let N = NM[0]
+    var M = NM[1]
+
+    var array = readLine()!.split(separator: " ").map {Int(String($0))!}
     
-    var printCount = 0
-    
-    var tempPriorityList = readLine()!.split(separator: " ").map{ Int($0)! }
-    var priorityList: [(Int, Int)] = []
-    
-    for (index, priority) in tempPriorityList.enumerated() {
-        let tuple = (priority, index)
-        priorityList.append(tuple)
-    }
-    
-    tempPriorityList.sort()
-    
+//    var tempCheck = 0
+//    var tempCount = 0
+    var result = 0
     while true {
-        if priorityList[0].0 == tempPriorityList.max() {
-            printCount += 1
-            if priorityList[0].1 == m {
-                print(printCount)
-                break
+//        print(array)
+        if array[0] < array.max()! {
+            let temp = array.removeFirst()
+            array.append(temp)
+            
+            if M == 0 {
+                M = array.count-1
             } else {
-                priorityList.removeFirst()
-                tempPriorityList.popLast()
+                M -= 1
             }
         } else {
-            priorityList.append(priorityList.removeFirst())
+            if M == 0 {
+                print(result+1)
+                break
+            } else {
+                result += 1
+                array.removeFirst()
+                M -= 1
+            }
         }
     }
 }
+
+// 1 2 3 4
+// 2
+
+// 2 3 4 1
+// 1
+
+// 3 4 1 2
+// 0
+
+// 4 1 2 3
+// 3
+
+// 1 2 3
+// 2
