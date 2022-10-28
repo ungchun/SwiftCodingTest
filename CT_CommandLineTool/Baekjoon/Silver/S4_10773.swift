@@ -2,15 +2,16 @@ import Foundation
 
 let K = Int(readLine()!)!
 
-var stack = [Int]()
+var array = Array(repeating: 0, count: K)
 
 for _ in 0..<K {
     let input = Int(readLine()!)!
+    
     if input == 0 {
-        stack.removeLast()
+        array.removeLast()
     } else {
-        stack.append(input)
+        array.append(input)
     }
 }
 
-print(stack.reduce(0, +))
+print(array.reduce(0, +))
