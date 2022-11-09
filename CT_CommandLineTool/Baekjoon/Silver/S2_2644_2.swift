@@ -16,7 +16,6 @@ for _ in 0..<m {
     graph[b].append(a)
 }
 
-var result = 0
 var answer = -1
 
 print(graph)
