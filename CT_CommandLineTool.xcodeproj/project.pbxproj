@@ -153,6 +153,7 @@
 		BCDAAD9F2869571700DB0703 /* Lv1_키패드 누르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_키패드 누르기.swift"; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CT_CommandLineTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CT_CommandLineTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BCE3C53E292C6E11000FDCF2 /* S3_3085.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3_3085.swift; sourceTree = "<group>"; };
 		BCE3F3C42852C4D40069491C /* S1_15903.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S1_15903.swift; sourceTree = "<group>"; };
 		BCE3F3C52852D5440069491C /* G5_11000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G5_11000.swift; sourceTree = "<group>"; };
 		BCEA6F5F284DCA2500C18EB8 /* S2_11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2_11724.swift; sourceTree = "<group>"; };
@@ -278,6 +279,7 @@
 				BC2E5B152925FE5A00086BF1 /* S2_18352.swift */,
 				BCA3A67D292765EB0069F7C1 /* S4_1388.swift */,
 				BC9DE4FF292892D1002591D2 /* S5_9237.swift */,
+				BCE3C53E292C6E11000FDCF2 /* S3_3085.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
