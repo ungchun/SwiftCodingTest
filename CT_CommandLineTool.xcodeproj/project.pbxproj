@@ -152,6 +152,8 @@
 		BCD7B2FC284C4C19008110C7 /* S3_2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3_2606.swift; sourceTree = "<group>"; };
 		BCDAAD9E28694C5D00DB0703 /* Lv1_숫자 문자열과 영단어.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_숫자 문자열과 영단어.swift"; sourceTree = "<group>"; };
 		BCDAAD9F2869571700DB0703 /* Lv1_키패드 누르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_키패드 누르기.swift"; sourceTree = "<group>"; };
+		BCDDF7BB29321E7F009A7E2B /* 제2회곰곰컵_A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "제2회곰곰컵_A.swift"; sourceTree = "<group>"; };
+		BCDDF7BC29321EF6009A7E2B /* test_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_3.swift; sourceTree = "<group>"; };
 		BCE0FACC292F22DD0070BCEB /* Lv3_단어 변환.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv3_단어 변환.swift"; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CT_CommandLineTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CT_CommandLineTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		BC87721B28463E360098482C /* Baekjoon */ = {
 			isa = PBXGroup;
 			children = (
+				BCDDF7BA29321E6B009A7E2B /* 대회 */,
 				BCC2A2A3285EF3DA00447BFC /* Bronze */,
 				BC877223284641A80098482C /* Gold */,
 				BC8772222846419C0098482C /* Silver */,
@@ -360,6 +363,7 @@
 			children = (
 				BC98D297290FA45C00C6EDE8 /* test_1.swift */,
 				BC98D298290FD43700C6EDE8 /* test_2.swift */,
+				BCDDF7BC29321EF6009A7E2B /* test_3.swift */,
 			);
 			name = "테스트";
 			path = "테스트";
@@ -375,6 +379,15 @@
 				BC9B168B2907921C00D68B5D /* B1_2775.swift */,
 			);
 			path = Bronze;
+			sourceTree = "<group>";
+		};
+		BCDDF7BA29321E6B009A7E2B /* 대회 */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDF7BB29321E7F009A7E2B /* 제2회곰곰컵_A.swift */,
+			);
+			name = "대회";
+			path = "대화";
 			sourceTree = "<group>";
 		};
 		BCE11DFB281E24550044DBC2 = {
