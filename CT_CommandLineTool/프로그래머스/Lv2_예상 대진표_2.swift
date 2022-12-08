@@ -21,9 +21,6 @@ func solution(_ n:Int, _ a:Int, _ b:Int) -> Int
             copyB = (copyB+1)/2
         }
         
-        print("copyA \(copyA)")
-        print("copyB \(copyB)")
-        
         check = copyA > copyB ? copyA : copyB
         
         result += 1
