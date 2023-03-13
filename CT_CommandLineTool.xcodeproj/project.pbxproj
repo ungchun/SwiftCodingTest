@@ -25,6 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		656E922929BEBC58004A6507 /* Lv0_최댓값 만들기 (1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_최댓값 만들기 (1).swift"; sourceTree = "<group>"; };
+		656E922A29BEBD08004A6507 /* Lv0_머쓱이보다 키 큰 사람.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_머쓱이보다 키 큰 사람.swift"; sourceTree = "<group>"; };
+		656E922B29BEBFE3004A6507 /* Lv0_옷가게 할인 받기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_옷가게 할인 받기.swift"; sourceTree = "<group>"; };
+		656E922C29BEC3D2004A6507 /* Lv0_특정 문자 제거하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_특정 문자 제거하기.swift"; sourceTree = "<group>"; };
+		656E922D29BEC483004A6507 /* Lv0_짝수는 싫어요.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_짝수는 싫어요.swift"; sourceTree = "<group>"; };
 		6589587429B967ED0080554D /* Lv0_중복된 숫자 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_중복된 숫자 개수.swift"; sourceTree = "<group>"; };
 		6589587529B96A520080554D /* Lv0_문자열 뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_문자열 뒤집기.swift"; sourceTree = "<group>"; };
 		6589587629B96D1B0080554D /* Lv0_짝수 홀수 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_짝수 홀수 개수.swift"; sourceTree = "<group>"; };
@@ -287,6 +292,11 @@
 				6589588229BAC0300080554D /* Lv0_중앙값 구하기.swift */,
 				6589588329BAC4560080554D /* Lv0_배열 두 배 만들기.swift */,
 				6589588429BACADF0080554D /* Lv0_순서쌍의 개수.swift */,
+				656E922929BEBC58004A6507 /* Lv0_최댓값 만들기 (1).swift */,
+				656E922A29BEBD08004A6507 /* Lv0_머쓱이보다 키 큰 사람.swift */,
+				656E922B29BEBFE3004A6507 /* Lv0_옷가게 할인 받기.swift */,
+				656E922C29BEC3D2004A6507 /* Lv0_특정 문자 제거하기.swift */,
+				656E922D29BEC483004A6507 /* Lv0_짝수는 싫어요.swift */,
 			);
 			path = Lv0;
 			sourceTree = "<group>";
