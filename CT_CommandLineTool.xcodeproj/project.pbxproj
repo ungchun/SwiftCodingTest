@@ -30,6 +30,11 @@
 		656E922B29BEBFE3004A6507 /* Lv0_옷가게 할인 받기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_옷가게 할인 받기.swift"; sourceTree = "<group>"; };
 		656E922C29BEC3D2004A6507 /* Lv0_특정 문자 제거하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_특정 문자 제거하기.swift"; sourceTree = "<group>"; };
 		656E922D29BEC483004A6507 /* Lv0_짝수는 싫어요.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_짝수는 싫어요.swift"; sourceTree = "<group>"; };
+		656E922E29C0025E004A6507 /* Lv0_문자 반복 출력하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_문자 반복 출력하기.swift"; sourceTree = "<group>"; };
+		656E922F29C0043F004A6507 /* Lv0_배열의 유사도.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_배열의 유사도.swift"; sourceTree = "<group>"; };
+		656E923029C0055C004A6507 /* Lv0_편지.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_편지.swift"; sourceTree = "<group>"; };
+		656E923129C00631004A6507 /* Lv0_자릿수 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_자릿수 더하기.swift"; sourceTree = "<group>"; };
+		656E923229C0093D004A6507 /* Lv0_숨어있는 숫자의 덧셈 (1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_숨어있는 숫자의 덧셈 (1).swift"; sourceTree = "<group>"; };
 		6589587429B967ED0080554D /* Lv0_중복된 숫자 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_중복된 숫자 개수.swift"; sourceTree = "<group>"; };
 		6589587529B96A520080554D /* Lv0_문자열 뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_문자열 뒤집기.swift"; sourceTree = "<group>"; };
 		6589587629B96D1B0080554D /* Lv0_짝수 홀수 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_짝수 홀수 개수.swift"; sourceTree = "<group>"; };
@@ -297,6 +302,11 @@
 				656E922B29BEBFE3004A6507 /* Lv0_옷가게 할인 받기.swift */,
 				656E922C29BEC3D2004A6507 /* Lv0_특정 문자 제거하기.swift */,
 				656E922D29BEC483004A6507 /* Lv0_짝수는 싫어요.swift */,
+				656E922E29C0025E004A6507 /* Lv0_문자 반복 출력하기.swift */,
+				656E922F29C0043F004A6507 /* Lv0_배열의 유사도.swift */,
+				656E923029C0055C004A6507 /* Lv0_편지.swift */,
+				656E923129C00631004A6507 /* Lv0_자릿수 더하기.swift */,
+				656E923229C0093D004A6507 /* Lv0_숨어있는 숫자의 덧셈 (1).swift */,
 			);
 			path = Lv0;
 			sourceTree = "<group>";
