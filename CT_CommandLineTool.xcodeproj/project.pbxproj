@@ -39,6 +39,9 @@
 		650EA53929C93F470034B3D0 /* Lv0_합성수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_합성수 찾기.swift"; sourceTree = "<group>"; };
 		650EA53A29C941BB0034B3D0 /* Lv0_중복된 문자 제거.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_중복된 문자 제거.swift"; sourceTree = "<group>"; };
 		650EA53B29C944640034B3D0 /* Lv0_모스부호 (1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_모스부호 (1).swift"; sourceTree = "<group>"; };
+		650EA53C29CAA8FD0034B3D0 /* Lv0_A로 B 만들기 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_A로 B 만들기 .swift"; sourceTree = "<group>"; };
+		650EA53D29CAAB420034B3D0 /* Lv0_팩토리얼.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_팩토리얼.swift"; sourceTree = "<group>"; };
+		650EA53E29CAACB50034B3D0 /* Lv0_2차원으로 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_2차원으로 만들기.swift"; sourceTree = "<group>"; };
 		656E922929BEBC58004A6507 /* Lv0_최댓값 만들기 (1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_최댓값 만들기 (1).swift"; sourceTree = "<group>"; };
 		656E922A29BEBD08004A6507 /* Lv0_머쓱이보다 키 큰 사람.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_머쓱이보다 키 큰 사람.swift"; sourceTree = "<group>"; };
 		656E922B29BEBFE3004A6507 /* Lv0_옷가게 할인 받기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0_옷가게 할인 받기.swift"; sourceTree = "<group>"; };
@@ -352,6 +355,9 @@
 				650EA53929C93F470034B3D0 /* Lv0_합성수 찾기.swift */,
 				650EA53A29C941BB0034B3D0 /* Lv0_중복된 문자 제거.swift */,
 				650EA53B29C944640034B3D0 /* Lv0_모스부호 (1).swift */,
+				650EA53C29CAA8FD0034B3D0 /* Lv0_A로 B 만들기 .swift */,
+				650EA53D29CAAB420034B3D0 /* Lv0_팩토리얼.swift */,
+				650EA53E29CAACB50034B3D0 /* Lv0_2차원으로 만들기.swift */,
 			);
 			path = Lv0;
 			sourceTree = "<group>";
