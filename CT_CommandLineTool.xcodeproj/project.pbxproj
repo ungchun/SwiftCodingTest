@@ -199,8 +199,6 @@
 		BC96D74C28DB4722001F9B75 /* S2_4963_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2_4963_2.swift; sourceTree = "<group>"; };
 		BC96D74D28DB4E5C001F9B75 /* S2_1012_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2_1012_2.swift; sourceTree = "<group>"; };
 		BC96E0992942FB4E005423B1 /* Lv3_베스트앨범.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv3_베스트앨범.swift"; sourceTree = "<group>"; };
-		BC98D297290FA45C00C6EDE8 /* test_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_1.swift; sourceTree = "<group>"; };
-		BC98D298290FD43700C6EDE8 /* test_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_2.swift; sourceTree = "<group>"; };
 		BC9B168B2907921C00D68B5D /* B1_2775.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B1_2775.swift; sourceTree = "<group>"; };
 		BC9DE4FF292892D1002591D2 /* S5_9237.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S5_9237.swift; sourceTree = "<group>"; };
 		BC9E7EF028AFA4FF000E5F36 /* Lv1_소수 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_소수 만들기.swift"; sourceTree = "<group>"; };
@@ -235,7 +233,6 @@
 		BCDAAD9E28694C5D00DB0703 /* Lv1_숫자 문자열과 영단어.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_숫자 문자열과 영단어.swift"; sourceTree = "<group>"; };
 		BCDAAD9F2869571700DB0703 /* Lv1_키패드 누르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_키패드 누르기.swift"; sourceTree = "<group>"; };
 		BCDDF7BB29321E7F009A7E2B /* 제2회곰곰컵_A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "제2회곰곰컵_A.swift"; sourceTree = "<group>"; };
-		BCDDF7BC29321EF6009A7E2B /* test_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_3.swift; sourceTree = "<group>"; };
 		BCE0FACC292F22DD0070BCEB /* Lv3_단어 변환.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv3_단어 변환.swift"; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CT_CommandLineTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CT_CommandLineTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -270,6 +267,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65A639B72A408195009F0EAB /* ~23.06.18 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "~23.06.18";
+			sourceTree = "<group>";
+		};
 		65BBF13229B6C77100A98C73 /* Lv1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,28 +554,18 @@
 			path = Gold;
 			sourceTree = "<group>";
 		};
-		BC877242284649530098482C /* 프로그래머스 */ = {
+		BC877242284649530098482C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				65A639B72A408195009F0EAB /* ~23.06.18 */,
 				65BBF13329B6C77700A98C73 /* Lv0 */,
 				65BBF13229B6C77100A98C73 /* Lv1 */,
 				65BBF13429B6C78100A98C73 /* Lv2 */,
 				65BBF13529B6C78900A98C73 /* Lv3 */,
 				65BBF13629B6C78E00A98C73 /* etc */,
 			);
-			name = "프로그래머스";
+			name = Programmers;
 			path = "프로그래머스";
-			sourceTree = "<group>";
-		};
-		BC98D296290FA44700C6EDE8 /* 테스트 */ = {
-			isa = PBXGroup;
-			children = (
-				BC98D297290FA45C00C6EDE8 /* test_1.swift */,
-				BC98D298290FD43700C6EDE8 /* test_2.swift */,
-				BCDDF7BC29321EF6009A7E2B /* test_3.swift */,
-			);
-			name = "테스트";
-			path = "테스트";
 			sourceTree = "<group>";
 		};
 		BCC2A2A3285EF3DA00447BFC /* Bronze */ = {
@@ -617,8 +611,7 @@
 			children = (
 				BCE11E07281E24550044DBC2 /* main.swift */,
 				BC4F3467281FB9FF0040A701 /* FileIO.swift */,
-				BC98D296290FA44700C6EDE8 /* 테스트 */,
-				BC877242284649530098482C /* 프로그래머스 */,
+				BC877242284649530098482C /* Programmers */,
 				BC87721B28463E360098482C /* Baekjoon */,
 			);
 			path = CT_CommandLineTool;
