@@ -234,7 +234,7 @@
 		BCDAAD9F2869571700DB0703 /* Lv1_키패드 누르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1_키패드 누르기.swift"; sourceTree = "<group>"; };
 		BCDDF7BB29321E7F009A7E2B /* 제2회곰곰컵_A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "제2회곰곰컵_A.swift"; sourceTree = "<group>"; };
 		BCE0FACC292F22DD0070BCEB /* Lv3_단어 변환.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv3_단어 변환.swift"; sourceTree = "<group>"; };
-		BCE11E04281E24550044DBC2 /* CT_CommandLineTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CT_CommandLineTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE11E04281E24550044DBC2 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BCE3C53E292C6E11000FDCF2 /* S3_3085.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3_3085.swift; sourceTree = "<group>"; };
 		BCE3F3C42852C4D40069491C /* S1_15903.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S1_15903.swift; sourceTree = "<group>"; };
@@ -593,7 +593,7 @@
 		BCE11DFB281E24550044DBC2 = {
 			isa = PBXGroup;
 			children = (
-				BCE11E06281E24550044DBC2 /* CT_CommandLineTool */,
+				BCE11E06281E24550044DBC2 /* CodingTest */,
 				BCE11E05281E24550044DBC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -601,12 +601,12 @@
 		BCE11E05281E24550044DBC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCE11E04281E24550044DBC2 /* CT_CommandLineTool */,
+				BCE11E04281E24550044DBC2 /* CodingTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BCE11E06281E24550044DBC2 /* CT_CommandLineTool */ = {
+		BCE11E06281E24550044DBC2 /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
 				BCE11E07281E24550044DBC2 /* main.swift */,
@@ -614,15 +614,15 @@
 				BC877242284649530098482C /* Programmers */,
 				BC87721B28463E360098482C /* Baekjoon */,
 			);
-			path = CT_CommandLineTool;
+			path = CodingTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCE11E03281E24550044DBC2 /* CT_CommandLineTool */ = {
+		BCE11E03281E24550044DBC2 /* CodingTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCE11E0B281E24550044DBC2 /* Build configuration list for PBXNativeTarget "CT_CommandLineTool" */;
+			buildConfigurationList = BCE11E0B281E24550044DBC2 /* Build configuration list for PBXNativeTarget "CodingTest" */;
 			buildPhases = (
 				BCE11E00281E24550044DBC2 /* Sources */,
 				BCE11E01281E24550044DBC2 /* Frameworks */,
@@ -632,9 +632,9 @@
 			);
 			dependencies = (
 			);
-			name = CT_CommandLineTool;
+			name = CodingTest;
 			productName = CT_CommandLineTool;
-			productReference = BCE11E04281E24550044DBC2 /* CT_CommandLineTool */;
+			productReference = BCE11E04281E24550044DBC2 /* CodingTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -652,7 +652,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BCE11DFF281E24550044DBC2 /* Build configuration list for PBXProject "CT_CommandLineTool" */;
+			buildConfigurationList = BCE11DFF281E24550044DBC2 /* Build configuration list for PBXProject "CodingTest" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -665,7 +665,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCE11E03281E24550044DBC2 /* CT_CommandLineTool */,
+				BCE11E03281E24550044DBC2 /* CodingTest */,
 			);
 		};
 /* End PBXProject section */
@@ -821,7 +821,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BCE11DFF281E24550044DBC2 /* Build configuration list for PBXProject "CT_CommandLineTool" */ = {
+		BCE11DFF281E24550044DBC2 /* Build configuration list for PBXProject "CodingTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCE11E09281E24550044DBC2 /* Debug */,
@@ -830,7 +830,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCE11E0B281E24550044DBC2 /* Build configuration list for PBXNativeTarget "CT_CommandLineTool" */ = {
+		BCE11E0B281E24550044DBC2 /* Build configuration list for PBXNativeTarget "CodingTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCE11E0C281E24550044DBC2 /* Debug */,
