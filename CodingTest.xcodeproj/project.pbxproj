@@ -252,6 +252,10 @@
 		650631272A408D8400094DBF /* Lv3_기지국 설치.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv3_기지국 설치.swift"; sourceTree = "<group>"; };
 		650631292A408DC800094DBF /* FileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
 		6506312B2A408E4800094DBF /* x 사이의 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "x 사이의 개수.swift"; sourceTree = "<group>"; };
+		6506312E2A4121FC00094DBF /* 특별한 이차원 배열 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "특별한 이차원 배열 1.swift"; sourceTree = "<group>"; };
+		650631302A41232200094DBF /* 문자열 섞기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 섞기.swift"; sourceTree = "<group>"; };
+		650631312A41264F00094DBF /* 간단한 식 계산하기 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "간단한 식 계산하기 .swift"; sourceTree = "<group>"; };
+		650631332A4128E000094DBF /* 9로 나눈 나머지.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9로 나눈 나머지.swift"; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -607,6 +611,17 @@
 			path = 23.06.19;
 			sourceTree = "<group>";
 		};
+		6506312D2A4121DE00094DBF /* 23.06.20 */ = {
+			isa = PBXGroup;
+			children = (
+				6506312E2A4121FC00094DBF /* 특별한 이차원 배열 1.swift */,
+				650631302A41232200094DBF /* 문자열 섞기.swift */,
+				650631312A41264F00094DBF /* 간단한 식 계산하기 .swift */,
+				650631332A4128E000094DBF /* 9로 나눈 나머지.swift */,
+			);
+			path = 23.06.20;
+			sourceTree = "<group>";
+		};
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
@@ -618,8 +633,9 @@
 		BC877242284649530098482C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				650630A32A408D8400094DBF /* ~23.06.18 */,
+				6506312D2A4121DE00094DBF /* 23.06.20 */,
 				6506312A2A408E1500094DBF /* 23.06.19 */,
+				650630A32A408D8400094DBF /* ~23.06.18 */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
