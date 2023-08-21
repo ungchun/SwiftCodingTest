@@ -317,6 +317,7 @@
 		65C68CD02A8E662400ED0C2F /* 2828번 사과 담기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2828번 사과 담기 게임.swift"; sourceTree = "<group>"; };
 		65C68CD22A8EF2E000ED0C2F /* 세 개의 구분자.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "세 개의 구분자.swift"; sourceTree = "<group>"; };
 		65C68CD32A8EF8C200ED0C2F /* 문자열이 몇 번 등장하는지 세기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열이 몇 번 등장하는지 세기.swift"; sourceTree = "<group>"; };
+		65D71BD62A9354C00080877D /* 11497번 통나무 건너뛰기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11497번 통나무 건너뛰기.swift"; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -996,9 +997,18 @@
 			path = 23.08.18;
 			sourceTree = "<group>";
 		};
+		65D71BD52A9354950080877D /* 23.08.21 */ = {
+			isa = PBXGroup;
+			children = (
+				65D71BD62A9354C00080877D /* 11497번 통나무 건너뛰기.swift */,
+			);
+			path = 23.08.21;
+			sourceTree = "<group>";
+		};
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65D71BD52A9354950080877D /* 23.08.21 */,
 				65C68CCF2A8E661400ED0C2F /* 23.08.17 */,
 				65C68CBE2A8B3DFA00ED0C2F /* 23.08.15 */,
 				654D13092A89E86900DFDEBC /* 23.08.14 */,
