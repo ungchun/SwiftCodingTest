@@ -318,6 +318,8 @@
 		65C68CD22A8EF2E000ED0C2F /* 세 개의 구분자.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "세 개의 구분자.swift"; sourceTree = "<group>"; };
 		65C68CD32A8EF8C200ED0C2F /* 문자열이 몇 번 등장하는지 세기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열이 몇 번 등장하는지 세기.swift"; sourceTree = "<group>"; };
 		65D71BD62A9354C00080877D /* 11497번 통나무 건너뛰기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11497번 통나무 건너뛰기.swift"; sourceTree = "<group>"; };
+		65D71C132A9641430080877D /* 배열의 길이를 2의 거듭제곱으로 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "배열의 길이를 2의 거듭제곱으로 만들기.swift"; sourceTree = "<group>"; };
+		65D71C142A9645160080877D /* 수열과 구간 쿼리 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수열과 구간 쿼리 4.swift"; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1005,6 +1007,15 @@
 			path = 23.08.21;
 			sourceTree = "<group>";
 		};
+		65D71C122A9641340080877D /* 23.08.23 */ = {
+			isa = PBXGroup;
+			children = (
+				65D71C132A9641430080877D /* 배열의 길이를 2의 거듭제곱으로 만들기.swift */,
+				65D71C142A9645160080877D /* 수열과 구간 쿼리 4.swift */,
+			);
+			path = 23.08.23;
+			sourceTree = "<group>";
+		};
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
@@ -1041,6 +1052,7 @@
 		BC877242284649530098482C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				65D71C122A9641340080877D /* 23.08.23 */,
 				65C68CD12A8EF2D400ED0C2F /* 23.08.18 */,
 				65C68CCB2A8E5C1A00ED0C2F /* 23.08.17 */,
 				65C68BCC2A89F01A00ED0C2F /* 23.08.14 */,
