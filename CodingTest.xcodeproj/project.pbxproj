@@ -324,6 +324,9 @@
 		65DC0C612AA7384600CEAF92 /* 리스트 자르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "리스트 자르기.swift"; sourceTree = "<group>"; };
 		65DC0C632AA7427100CEAF92 /* 1052번 물병.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1052번 물병.swift"; sourceTree = "<group>"; };
 		65DC0C652AAB73EE00CEAF92 /* 문자열 묶기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 묶기.swift"; sourceTree = "<group>"; };
+		65DC0C672AAED2A000CEAF92 /* 1260번 DFS와 BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1260번 DFS와 BFS.swift"; sourceTree = "<group>"; };
+		65DC0C682AAEDDE300CEAF92 /* 2606번 바이러스.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2606번 바이러스.swift"; sourceTree = "<group>"; };
+		65DC0C692AAEE30900CEAF92 /* 2667번 단지번호붙이기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2667번 단지번호붙이기.swift"; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1052,9 +1055,20 @@
 			path = 23.09.09;
 			sourceTree = "<group>";
 		};
+		65DC0C662AAED29200CEAF92 /* 23.09.11 */ = {
+			isa = PBXGroup;
+			children = (
+				65DC0C672AAED2A000CEAF92 /* 1260번 DFS와 BFS.swift */,
+				65DC0C682AAEDDE300CEAF92 /* 2606번 바이러스.swift */,
+				65DC0C692AAEE30900CEAF92 /* 2667번 단지번호붙이기.swift */,
+			);
+			path = 23.09.11;
+			sourceTree = "<group>";
+		};
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65DC0C662AAED29200CEAF92 /* 23.09.11 */,
 				65DC0C622AA7425900CEAF92 /* 23.09.05 */,
 				65D71BD52A9354950080877D /* 23.08.21 */,
 				65C68CCF2A8E661400ED0C2F /* 23.08.17 */,
