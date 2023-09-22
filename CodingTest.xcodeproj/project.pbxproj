@@ -271,6 +271,8 @@
 		6506317B2A49133E00094DBF /* 11724번 연결 요소의 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11724번 연결 요소의 개수.swift"; sourceTree = "<group>"; };
 		651866722A7FC90900CC30B7 /* 수 조작하기 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수 조작하기 2.swift"; sourceTree = "<group>"; };
 		651866732A7FCBA600CC30B7 /* 수열과 구간 쿼리 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수열과 구간 쿼리 1.swift"; sourceTree = "<group>"; };
+		651D6A9C2ABD299B00A0C7B6 /* 배열 만들기 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "배열 만들기 4.swift"; sourceTree = "<group>"; };
+		651D6A9D2ABD335900A0C7B6 /* 두 수의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두 수의 합.swift"; sourceTree = "<group>"; };
 		654D12D12A8264CC00DFDEBC /* 이차원 배열 대각선 순회하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이차원 배열 대각선 순회하기.swift"; sourceTree = "<group>"; };
 		654D12D22A826A6200DFDEBC /* 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.swift"; sourceTree = "<group>"; };
 		654D12D32A8271D300DFDEBC /* 빈 배열에 추가, 삭제하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "빈 배열에 추가, 삭제하기.swift"; sourceTree = "<group>"; };
@@ -341,6 +343,8 @@
 		65EB5F0E2AB88116008286A3 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		65EB5F102ABACDEF008286A3 /* 문자 개수 세기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자 개수 세기.swift"; sourceTree = "<group>"; };
 		65EB5F122ABAD168008286A3 /* 2839번 설탕 배달.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2839번 설탕 배달.swift"; sourceTree = "<group>"; };
+		65EB5F2E2ABD1CA6008286A3 /* 11399번 ATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11399번 ATM.swift"; sourceTree = "<group>"; };
+		65EB5F2F2ABD227F008286A3 /* 1339번 단어 수학.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1339번 단어 수학.swift"; sourceTree = "<group>"; };
 		BCE11E04281E24550044DBC2 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11E07281E24550044DBC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -786,6 +790,15 @@
 			path = 23.08.06;
 			sourceTree = "<group>";
 		};
+		651D6A9B2ABD298C00A0C7B6 /* 23.09.22 */ = {
+			isa = PBXGroup;
+			children = (
+				651D6A9C2ABD299B00A0C7B6 /* 배열 만들기 4.swift */,
+				651D6A9D2ABD335900A0C7B6 /* 두 수의 합.swift */,
+			);
+			path = 23.09.22;
+			sourceTree = "<group>";
+		};
 		654D12D02A8264BA00DFDEBC /* 23.08.08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1163,9 +1176,19 @@
 			path = 23.09.20;
 			sourceTree = "<group>";
 		};
+		65EB5F2D2ABD1C97008286A3 /* 23.09.22 */ = {
+			isa = PBXGroup;
+			children = (
+				65EB5F2E2ABD1CA6008286A3 /* 11399번 ATM.swift */,
+				65EB5F2F2ABD227F008286A3 /* 1339번 단어 수학.swift */,
+			);
+			path = 23.09.22;
+			sourceTree = "<group>";
+		};
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65EB5F2D2ABD1C97008286A3 /* 23.09.22 */,
 				65EB5F112ABAD157008286A3 /* 23.09.20 */,
 				65EB5F072AB7EEDC008286A3 /* 23.09.18 */,
 				65EB5F052AB6E155008286A3 /* 23.09.17 */,
@@ -1207,6 +1230,7 @@
 		BC877242284649530098482C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				651D6A9B2ABD298C00A0C7B6 /* 23.09.22 */,
 				65EB5F0F2ABACDE3008286A3 /* 23.09.20 */,
 				65EB5F092AB86EF1008286A3 /* 23.09.18 */,
 				65DC0C6E2AB2946600CEAF92 /* 23.09.14 */,
