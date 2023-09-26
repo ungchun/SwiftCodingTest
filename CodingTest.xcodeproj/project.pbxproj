@@ -276,6 +276,7 @@
 		651D6AA02ABEFFAC00A0C7B6 /* 11047번 동전 0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11047번 동전 0.swift"; sourceTree = "<group>"; };
 		651D6AA12ABF09B100A0C7B6 /* 11000번 강의실 배정.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11000번 강의실 배정.swift"; sourceTree = "<group>"; };
 		651D6AD62AC12D5600A0C7B6 /* 19941번 햄버거 분배.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19941번 햄버거 분배.swift"; sourceTree = "<group>"; };
+		651D6AD82AC2967400A0C7B6 /* 1758번 알바생 강호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1758번 알바생 강호.swift"; sourceTree = "<group>"; };
 		654D12D12A8264CC00DFDEBC /* 이차원 배열 대각선 순회하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이차원 배열 대각선 순회하기.swift"; sourceTree = "<group>"; };
 		654D12D22A826A6200DFDEBC /* 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.swift"; sourceTree = "<group>"; };
 		654D12D32A8271D300DFDEBC /* 빈 배열에 추가, 삭제하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "빈 배열에 추가, 삭제하기.swift"; sourceTree = "<group>"; };
@@ -819,6 +820,14 @@
 			path = 23.09.25;
 			sourceTree = "<group>";
 		};
+		651D6AD72AC2966500A0C7B6 /* 23.09.26 */ = {
+			isa = PBXGroup;
+			children = (
+				651D6AD82AC2967400A0C7B6 /* 1758번 알바생 강호.swift */,
+			);
+			path = 23.09.26;
+			sourceTree = "<group>";
+		};
 		654D12D02A8264BA00DFDEBC /* 23.08.08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1208,6 +1217,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				651D6AD72AC2966500A0C7B6 /* 23.09.26 */,
 				651D6AD52AC12D4200A0C7B6 /* 23.09.25 */,
 				651D6A9F2ABEFF9800A0C7B6 /* 23.09.23 */,
 				65EB5F2D2ABD1C97008286A3 /* 23.09.22 */,
