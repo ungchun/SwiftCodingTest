@@ -281,6 +281,7 @@
 		651D6B1A2AC6B88100A0C7B6 /* 11508번 2+1 세일.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11508번 2+1 세일.swift"; sourceTree = "<group>"; };
 		651D6B1C2AC9947700A0C7B6 /* 19939번 박 터뜨리기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19939번 박 터뜨리기.swift"; sourceTree = "<group>"; };
 		651D6B1E2AC9973200A0C7B6 /* 귤 고르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "귤 고르기.swift"; sourceTree = "<group>"; };
+		651D6B432ACBE56800A0C7B6 /* 왼쪽 오른쪽.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "왼쪽 오른쪽.swift"; sourceTree = "<group>"; };
 		654D12D12A8264CC00DFDEBC /* 이차원 배열 대각선 순회하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이차원 배열 대각선 순회하기.swift"; sourceTree = "<group>"; };
 		654D12D22A826A6200DFDEBC /* 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.swift"; sourceTree = "<group>"; };
 		654D12D32A8271D300DFDEBC /* 빈 배열에 추가, 삭제하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "빈 배열에 추가, 삭제하기.swift"; sourceTree = "<group>"; };
@@ -857,6 +858,14 @@
 			path = 23.10.01;
 			sourceTree = "<group>";
 		};
+		651D6B422ACBE55400A0C7B6 /* 23.10.03 */ = {
+			isa = PBXGroup;
+			children = (
+				651D6B432ACBE56800A0C7B6 /* 왼쪽 오른쪽.swift */,
+			);
+			path = 23.10.03;
+			sourceTree = "<group>";
+		};
 		654D12D02A8264BA00DFDEBC /* 23.08.08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1293,6 +1302,7 @@
 		BC877242284649530098482C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				651D6B422ACBE55400A0C7B6 /* 23.10.03 */,
 				651D6B1D2AC9971D00A0C7B6 /* 23.10.01 */,
 				651D6A9B2ABD298C00A0C7B6 /* 23.09.22 */,
 				65EB5F0F2ABACDE3008286A3 /* 23.09.20 */,
