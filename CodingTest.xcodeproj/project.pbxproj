@@ -301,6 +301,8 @@
 		6527E5EA2AEBD01A008CFE3C /* 연속된 수의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "연속된 수의 합.swift"; sourceTree = "<group>"; };
 		6527E5EB2AEBD032008CFE3C /* 분수의 덧셈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "분수의 덧셈.swift"; sourceTree = "<group>"; };
 		6527E5EC2AEBE5F3008CFE3C /* 주사위 게임 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "주사위 게임 3.swift"; sourceTree = "<group>"; };
+		6532AD9D2AED568500A71929 /* 안전지대.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "안전지대.swift"; sourceTree = "<group>"; };
+		6532AD9E2AED622D00A71929 /* 겹치는 선분의 길이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "겹치는 선분의 길이.swift"; sourceTree = "<group>"; };
 		654D12D12A8264CC00DFDEBC /* 이차원 배열 대각선 순회하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이차원 배열 대각선 순회하기.swift"; sourceTree = "<group>"; };
 		654D12D22A826A6200DFDEBC /* 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.swift"; sourceTree = "<group>"; };
 		654D12D32A8271D300DFDEBC /* 빈 배열에 추가, 삭제하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "빈 배열에 추가, 삭제하기.swift"; sourceTree = "<group>"; };
@@ -974,6 +976,15 @@
 			path = 23.10.27;
 			sourceTree = "<group>";
 		};
+		6532AD9C2AED567A00A71929 /* 23.10.28 */ = {
+			isa = PBXGroup;
+			children = (
+				6532AD9D2AED568500A71929 /* 안전지대.swift */,
+				6532AD9E2AED622D00A71929 /* 겹치는 선분의 길이.swift */,
+			);
+			path = 23.10.28;
+			sourceTree = "<group>";
+		};
 		654D12D02A8264BA00DFDEBC /* 23.08.08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1434,6 +1445,7 @@
 		BC877242284649530098482C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				6532AD9C2AED567A00A71929 /* 23.10.28 */,
 				6527E5E92AEBD005008CFE3C /* 23.10.27 */,
 				6527E5DF2AE6E240008CFE3C /* 23.10.24 */,
 				65021FBC2ADBD137002B1297 /* 23.10.15 */,
