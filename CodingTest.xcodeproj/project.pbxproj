@@ -408,6 +408,11 @@
 		65BB4E0A2B2AED7200B72EA5 /* 13335번 트럭.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13335번 트럭.swift"; sourceTree = "<group>"; };
 		65BB4E0B2B2AFEDE00B72EA5 /* 1018번 체스판 다시 칠하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1018번 체스판 다시 칠하기.swift"; sourceTree = "<group>"; };
 		65BB4E0C2B2B0F2300B72EA5 /* 10972번 다음 순열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10972번 다음 순열.swift"; sourceTree = "<group>"; };
+		65BB4E0D2B2C339600B72EA5 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
+		65BB4E0F2B2C344300B72EA5 /* 10974번 모든 순열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10974번 모든 순열.swift"; sourceTree = "<group>"; };
+		65BB4E112B2C450E00B72EA5 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
+		65BB4E122B2C535B00B72EA5 /* 소수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "소수 찾기.swift"; sourceTree = "<group>"; };
+		65BB4E132B2C570200B72EA5 /* isPrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPrime.swift; sourceTree = "<group>"; };
 		65C076322A4A67B1003E6D92 /* 2839번 설탕 배달.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2839번 설탕 배달.swift"; sourceTree = "<group>"; };
 		65C076332A4A6865003E6D92 /* 11399번 ATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11399번 ATM.swift"; sourceTree = "<group>"; };
 		65C076442A4BB61E003E6D92 /* 11047번 동전 0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11047번 동전 0.swift"; sourceTree = "<group>"; };
@@ -826,6 +831,8 @@
 			children = (
 				650631292A408DC800094DBF /* FileIO.swift */,
 				65EB5F0E2AB88116008286A3 /* Heap.swift */,
+				65BB4E0D2B2C339600B72EA5 /* Permutations.swift */,
+				65BB4E132B2C570200B72EA5 /* isPrime.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -1411,6 +1418,23 @@
 			path = 23.12.14;
 			sourceTree = "<group>";
 		};
+		65BB4E0E2B2C342E00B72EA5 /* 23.12.15 */ = {
+			isa = PBXGroup;
+			children = (
+				65BB4E0F2B2C344300B72EA5 /* 10974번 모든 순열.swift */,
+			);
+			path = 23.12.15;
+			sourceTree = "<group>";
+		};
+		65BB4E102B2C450600B72EA5 /* 23.12.15 */ = {
+			isa = PBXGroup;
+			children = (
+				65BB4E112B2C450E00B72EA5 /* 모의고사.swift */,
+				65BB4E122B2C535B00B72EA5 /* 소수 찾기.swift */,
+			);
+			path = 23.12.15;
+			sourceTree = "<group>";
+		};
 		65C076312A4A6600003E6D92 /* 23.06.27 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1729,6 +1753,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65BB4E0E2B2C342E00B72EA5 /* 23.12.15 */,
 				65BB4E092B2AED6300B72EA5 /* 23.12.14 */,
 				65BB4E042B299E7900B72EA5 /* 23.12.13 */,
 				65BB4E002B28214100B72EA5 /* 23.12.12 */,
@@ -1794,6 +1819,7 @@
 		BC877242284649530098482C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				65BB4E102B2C450600B72EA5 /* 23.12.15 */,
 				65290BF22B08C04D00B65C56 /* 23.11.18 */,
 				65290BE62B01F12300B65C56 /* 23.11.13 */,
 				65290BE02B00FD6D00B65C56 /* 23.11.12 */,
