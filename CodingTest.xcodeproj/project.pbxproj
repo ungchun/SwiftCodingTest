@@ -423,6 +423,8 @@
 		65BB4E1F2B36E1B400B72EA5 /* 2156번 포도주 시식.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2156번 포도주 시식.swift"; sourceTree = "<group>"; };
 		65BB4E212B3845F300B72EA5 /* 10844번 쉬운 계단 수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10844번 쉬운 계단 수.swift"; sourceTree = "<group>"; };
 		65BB4E222B38491800B72EA5 /* 2193번 이친수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2193번 이친수.swift"; sourceTree = "<group>"; };
+		65BB4E242B3AA83900B72EA5 /* 10026번 적록색약.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10026번 적록색약.swift"; sourceTree = "<group>"; };
+		65BB4E252B3ABBFE00B72EA5 /* 2583번 영역 구하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2583번 영역 구하기.swift"; sourceTree = "<group>"; };
 		65C076322A4A67B1003E6D92 /* 2839번 설탕 배달.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2839번 설탕 배달.swift"; sourceTree = "<group>"; };
 		65C076332A4A6865003E6D92 /* 11399번 ATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11399번 ATM.swift"; sourceTree = "<group>"; };
 		65C076442A4BB61E003E6D92 /* 11047번 동전 0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11047번 동전 0.swift"; sourceTree = "<group>"; };
@@ -1490,6 +1492,15 @@
 			path = 23.12.24;
 			sourceTree = "<group>";
 		};
+		65BB4E232B3AA82800B72EA5 /* 23.12.26 */ = {
+			isa = PBXGroup;
+			children = (
+				65BB4E242B3AA83900B72EA5 /* 10026번 적록색약.swift */,
+				65BB4E252B3ABBFE00B72EA5 /* 2583번 영역 구하기.swift */,
+			);
+			path = 23.12.26;
+			sourceTree = "<group>";
+		};
 		65C076312A4A6600003E6D92 /* 23.06.27 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1808,6 +1819,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65BB4E232B3AA82800B72EA5 /* 23.12.26 */,
 				65BB4E202B3845B100B72EA5 /* 23.12.24 */,
 				65BB4E1B2B36C47D00B72EA5 /* 23.12.23 */,
 				65BB4E192B358AE300B72EA5 /* 23.12.22 */,
