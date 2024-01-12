@@ -442,6 +442,8 @@
 		65BB4E5B2B46A57A00B72EA5 /* 14889번 스타트와 링크.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14889번 스타트와 링크.swift"; sourceTree = "<group>"; };
 		65BB4E5D2B48143E00B72EA5 /* 9465번 스티커.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9465번 스티커.swift"; sourceTree = "<group>"; };
 		65BB4E5F2B49798100B72EA5 /* 11052번 카드 구매하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11052번 카드 구매하기.swift"; sourceTree = "<group>"; };
+		65BB4E612B51155C00B72EA5 /* 7569번 토마토.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7569번 토마토.swift"; sourceTree = "<group>"; };
+		65BB4E622B511C5D00B72EA5 /* 9251번 LCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9251번 LCS.swift"; sourceTree = "<group>"; };
 		65C076322A4A67B1003E6D92 /* 2839번 설탕 배달.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2839번 설탕 배달.swift"; sourceTree = "<group>"; };
 		65C076332A4A6865003E6D92 /* 11399번 ATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11399번 ATM.swift"; sourceTree = "<group>"; };
 		65C076442A4BB61E003E6D92 /* 11047번 동전 0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11047번 동전 0.swift"; sourceTree = "<group>"; };
@@ -1598,6 +1600,15 @@
 			path = 24.01.06;
 			sourceTree = "<group>";
 		};
+		65BB4E602B51154D00B72EA5 /* 24.01.12 */ = {
+			isa = PBXGroup;
+			children = (
+				65BB4E612B51155C00B72EA5 /* 7569번 토마토.swift */,
+				65BB4E622B511C5D00B72EA5 /* 9251번 LCS.swift */,
+			);
+			path = 24.01.12;
+			sourceTree = "<group>";
+		};
 		65C076312A4A6600003E6D92 /* 23.06.27 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1916,6 +1927,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65BB4E602B51154D00B72EA5 /* 24.01.12 */,
 				65BB4E5E2B49796800B72EA5 /* 24.01.06 */,
 				65BB4E5C2B48142F00B72EA5 /* 24.01.05 */,
 				65BB4E5A2B46A56A00B72EA5 /* 24.01.04 */,
