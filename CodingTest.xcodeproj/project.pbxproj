@@ -523,6 +523,8 @@
 		65DC0C6F2AB2947400CEAF92 /* 조건에 맞게 수열 변환하기 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "조건에 맞게 수열 변환하기 2.swift"; sourceTree = "<group>"; };
 		65DC0C712AB2988300CEAF92 /* 4963번 섬의 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4963번 섬의 개수.swift"; sourceTree = "<group>"; };
 		65DC0C722AB33EF300CEAF92 /* 2468번 안전 영역.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2468번 안전 영역.swift"; sourceTree = "<group>"; };
+		65E9F17B2B5E526900F9909E /* 가장 많이 받은 선물.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "가장 많이 받은 선물.swift"; sourceTree = "<group>"; };
+		65E9F17C2B5E7FF000F9909E /* 도넛과 막대 그래프.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "도넛과 막대 그래프.swift"; sourceTree = "<group>"; };
 		65EB5F042AB5D261008286A3 /* 1697번 숨바꼭질.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697번 숨바꼭질.swift"; sourceTree = "<group>"; };
 		65EB5F062AB6E168008286A3 /* 7562번 나이트의 이동.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7562번 나이트의 이동.swift"; sourceTree = "<group>"; };
 		65EB5F082AB7EEEA008286A3 /* 2644번 촌수계산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2644번 촌수계산.swift"; sourceTree = "<group>"; };
@@ -1980,6 +1982,15 @@
 			path = 23.09.14;
 			sourceTree = "<group>";
 		};
+		65E9F17A2B5E524E00F9909E /* 24.01.22 */ = {
+			isa = PBXGroup;
+			children = (
+				65E9F17B2B5E526900F9909E /* 가장 많이 받은 선물.swift */,
+				65E9F17C2B5E7FF000F9909E /* 도넛과 막대 그래프.swift */,
+			);
+			path = 24.01.22;
+			sourceTree = "<group>";
+		};
 		65EB5F032AB5D24F008286A3 /* 23.09.16 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2131,6 +2142,7 @@
 		BC877242284649530098482C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				65E9F17A2B5E524E00F9909E /* 24.01.22 */,
 				65BB4E102B2C450600B72EA5 /* 23.12.15 */,
 				65290BF22B08C04D00B65C56 /* 23.11.18 */,
 				65290BE62B01F12300B65C56 /* 23.11.13 */,
