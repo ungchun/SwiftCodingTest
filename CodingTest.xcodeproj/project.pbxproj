@@ -508,6 +508,8 @@
 		65C68CD02A8E662400ED0C2F /* 2828번 사과 담기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2828번 사과 담기 게임.swift"; sourceTree = "<group>"; };
 		65C68CD22A8EF2E000ED0C2F /* 세 개의 구분자.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "세 개의 구분자.swift"; sourceTree = "<group>"; };
 		65C68CD32A8EF8C200ED0C2F /* 문자열이 몇 번 등장하는지 세기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열이 몇 번 등장하는지 세기.swift"; sourceTree = "<group>"; };
+		65CA4B8F2B5FDD65005EA599 /* 11478번 서로 다른 부분 문자열의 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11478번 서로 다른 부분 문자열의 개수.swift"; sourceTree = "<group>"; };
+		65CA4B902B5FE444005EA599 /* 2559번 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2559번 수열.swift"; sourceTree = "<group>"; };
 		65D71BD62A9354C00080877D /* 11497번 통나무 건너뛰기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11497번 통나무 건너뛰기.swift"; sourceTree = "<group>"; };
 		65D71C132A9641430080877D /* 배열의 길이를 2의 거듭제곱으로 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "배열의 길이를 2의 거듭제곱으로 만들기.swift"; sourceTree = "<group>"; };
 		65D71C142A9645160080877D /* 수열과 구간 쿼리 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수열과 구간 쿼리 4.swift"; sourceTree = "<group>"; };
@@ -1890,6 +1892,15 @@
 			path = 23.08.18;
 			sourceTree = "<group>";
 		};
+		65CA4B8E2B5FDD5B005EA599 /* 24.01.23 */ = {
+			isa = PBXGroup;
+			children = (
+				65CA4B8F2B5FDD65005EA599 /* 11478번 서로 다른 부분 문자열의 개수.swift */,
+				65CA4B902B5FE444005EA599 /* 2559번 수열.swift */,
+			);
+			path = 24.01.23;
+			sourceTree = "<group>";
+		};
 		65D71BD52A9354950080877D /* 23.08.21 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2053,6 +2064,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65CA4B8E2B5FDD5B005EA599 /* 24.01.23 */,
 				652DF0742B5A765200D6D25A /* 24.01.19 */,
 				652DF0722B59566F00D6D25A /* 24.01.18 */,
 				652DF04D2B58117B00D6D25A /* 24.01.17 */,
