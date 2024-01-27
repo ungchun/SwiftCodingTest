@@ -1,57 +1,59 @@
 import Foundation
 
-// BOJ 10974
+/// 순열
 
-let n = Int(readLine()!)!
-var picked = [Int]()
-var visited = Array(repeating: false, count: n)
+let nm = readLine()!.split(separator: " ").map{Int(String($0))!}
+let n = nm[0], m = nm[1]
 
-func pick(toPick: Int) {
-	if toPick == 0 {
-		print(picked.map { String($0) }.joined(separator: " "))
-		return
-	}
-	for i in 0..<n {
-		if visited[i] {
-			continue
-		}
-		picked.append(i+1)
-		visited[i] = true
-		pick(toPick: toPick - 1)
-		visited[i] = false
-		picked.removeLast()
-	}
-}
-pick(toPick: n)
+var visited = Array(repeating: false, count: n + 1)
+var depth: Int = 0
+var stack: [Int] = []
 
-//
-
-let N = Int(readLine()!)!
-
-var visited = Array(repeating: false, count: N + 1)
-var arr = Array(repeating: 0, count: N)
-
-func dfs(_ index: Int) {
-	print("arr \(arr)")
-	print("visited \(visited)")
-	print("index \(index)")
-	print()
-	if (index == N) {
-		print(arr.map{String($0)}.joined(separator: " "))
-		print()
+func dfs(_ depth: Int) {
+	if depth == m {
+		print(stack.map{String($0)}.joined(separator: " "))
 		return
 	}
 	
-	for i in 1...N {
-		if (visited[i]) {continue}
-		print("for i \(i)")
-		print("for idx \(index)")
-		arr[index] = i
-		visited[i] = true
-		dfs(index+1)
-		visited[i] = false
-		print("after index \(index)")
-		print("after visited \(visited)")
+	for i in 1...n {
+		if !visited[i] {
+			visited[i] = true
+			stack.append(i)
+			dfs(depth+1)
+			visited[i] = false
+			stack.removeLast()
+		}
+	}
+}
+
+dfs(0)
+
+/// 조합
+
+let nm = readLine()!.split(separator: " ").map{Int(String($0))!}
+let n = nm[0], m = nm[1]
+
+var visited = Array(repeating: false, count: n + 1)
+var depth: Int = 0
+var stack: [Int] = []
+
+func dfs(_ depth: Int) {
+	if depth == m {
+		if stack.sorted() == stack {
+			print(stack.map{String($0)}.joined(separator: " "))
+			return
+		}
+		return
+	}
+	
+	for i in 1...n {
+		if !visited[i] {
+			visited[i] = true
+			stack.append(i)
+			dfs(depth+1)
+			visited[i] = false
+			stack.removeLast()
+		}
 	}
 }
 

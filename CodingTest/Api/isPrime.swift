@@ -25,9 +25,10 @@ for i in 2...1000000{
 }
 // 2부터 판단할 범위까지 가는데, 시작은 그 수의 배수부터 시작하고 그 수 만큼 건너가서 확인
 // 2부터 확인한다고 하면 2+2=4, 4부터 확인 시작하고 계속 +2 하면서 확인
+// numbers[idx] 값이 0이면 idx는 소수가 아님
 for i in 2...1000000{
-		if numbers[i] == 0{continue}
-		for j in stride(from: i + i, through: 1000000, by: i){
-			numbers[j] = 0
-		}
+	if numbers[i] == 0 { continue }
+	for j in stride(from: i + i, through: 1000000, by: i){
+		numbers[j] = 0
+	}
 }
