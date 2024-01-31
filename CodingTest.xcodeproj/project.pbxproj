@@ -531,6 +531,8 @@
 		65CA4BA92B67A0E0005EA599 /* 11055번 가장 큰 증가하는 부분 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11055번 가장 큰 증가하는 부분 수열.swift"; sourceTree = "<group>"; };
 		65CA4BAB2B68CC27005EA599 /* 1699번 제곱수의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1699번 제곱수의 합.swift"; sourceTree = "<group>"; };
 		65CA4BAC2B68E3EC005EA599 /* 12865번 평범한 배낭.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12865번 평범한 배낭.swift"; sourceTree = "<group>"; };
+		65CA4BAE2B6A1D91005EA599 /* 11722번 가장 긴 감소하는 부분 수열 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11722번 가장 긴 감소하는 부분 수열 .swift"; sourceTree = "<group>"; };
+		65CA4BAF2B6A43F9005EA599 /* 5014번 스타트링크.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5014번 스타트링크.swift"; sourceTree = "<group>"; };
 		65D71BD62A9354C00080877D /* 11497번 통나무 건너뛰기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11497번 통나무 건너뛰기.swift"; sourceTree = "<group>"; };
 		65D71C132A9641430080877D /* 배열의 길이를 2의 거듭제곱으로 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "배열의 길이를 2의 거듭제곱으로 만들기.swift"; sourceTree = "<group>"; };
 		65D71C142A9645160080877D /* 수열과 구간 쿼리 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수열과 구간 쿼리 4.swift"; sourceTree = "<group>"; };
@@ -1991,6 +1993,15 @@
 			path = 24.01.30;
 			sourceTree = "<group>";
 		};
+		65CA4BAD2B6A1D7B005EA599 /* 24.01.31 */ = {
+			isa = PBXGroup;
+			children = (
+				65CA4BAE2B6A1D91005EA599 /* 11722번 가장 긴 감소하는 부분 수열 .swift */,
+				65CA4BAF2B6A43F9005EA599 /* 5014번 스타트링크.swift */,
+			);
+			path = 24.01.31;
+			sourceTree = "<group>";
+		};
 		65D71BD52A9354950080877D /* 23.08.21 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2154,6 +2165,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65CA4BAD2B6A1D7B005EA599 /* 24.01.31 */,
 				65CA4BAA2B68CC19005EA599 /* 24.01.30 */,
 				65CA4BA82B67A0D0005EA599 /* 24.01.29 */,
 				65CA4BA62B661F2B005EA599 /* 24.01.28 */,
