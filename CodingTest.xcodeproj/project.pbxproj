@@ -560,6 +560,8 @@
 		65E60FDC2B6F5D6C001B9E47 /* 17103번 골드바흐 파티션.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17103번 골드바흐 파티션.swift"; sourceTree = "<group>"; };
 		65E60FDD2B6F6818001B9E47 /* 20902번 영단어 암기는 괴로워.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20902번 영단어 암기는 괴로워.swift"; sourceTree = "<group>"; };
 		65E60FDE2B6F72CB001B9E47 /* 7795번 먹을 것인가 먹힐 것인가.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7795번 먹을 것인가 먹힐 것인가.swift"; sourceTree = "<group>"; };
+		65E60FE02B70CAD0001B9E47 /* 4375번 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4375번 1.swift"; sourceTree = "<group>"; };
+		65E60FE12B70D06D001B9E47 /* 12789번 도키도키 간식드리미.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12789번 도키도키 간식드리미.swift"; sourceTree = "<group>"; };
 		65E9F17B2B5E526900F9909E /* 가장 많이 받은 선물.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "가장 많이 받은 선물.swift"; sourceTree = "<group>"; };
 		65E9F17C2B5E7FF000F9909E /* 도넛과 막대 그래프.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "도넛과 막대 그래프.swift"; sourceTree = "<group>"; };
 		65EB5F042AB5D261008286A3 /* 1697번 숨바꼭질.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697번 숨바꼭질.swift"; sourceTree = "<group>"; };
@@ -2139,6 +2141,15 @@
 			path = 24.02.04;
 			sourceTree = "<group>";
 		};
+		65E60FDF2B70CAB9001B9E47 /* 24.02.05 */ = {
+			isa = PBXGroup;
+			children = (
+				65E60FE02B70CAD0001B9E47 /* 4375번 1.swift */,
+				65E60FE12B70D06D001B9E47 /* 12789번 도키도키 간식드리미.swift */,
+			);
+			path = 24.02.05;
+			sourceTree = "<group>";
+		};
 		65E9F17A2B5E524E00F9909E /* 24.01.22 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2210,6 +2221,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65E60FDF2B70CAB9001B9E47 /* 24.02.05 */,
 				65E60FDA2B6F58DF001B9E47 /* 24.02.04 */,
 				65CA4BB52B6C9F78005EA599 /* 24.02.02 */,
 				65CA4BB02B6B9935005EA599 /* 24.02.01 */,
