@@ -565,6 +565,9 @@
 		65E60FE32B738B95001B9E47 /* 9655번 돌 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9655번 돌 게임.swift"; sourceTree = "<group>"; };
 		65E60FE42B738F60001B9E47 /* 11048번 이동하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11048번 이동하기.swift"; sourceTree = "<group>"; };
 		65E60FE52B73A110001B9E47 /* 15988번 1, 2, 3 더하기 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15988번 1, 2, 3 더하기 3.swift"; sourceTree = "<group>"; };
+		65E60FE82B74CCFE001B9E47 /* 14888번 연산자 끼워넣기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14888번 연산자 끼워넣기.swift"; sourceTree = "<group>"; };
+		65E60FE92B74D032001B9E47 /* 9656번 돌 게임 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9656번 돌 게임 2.swift"; sourceTree = "<group>"; };
+		65E60FEA2B74D3C1001B9E47 /* 1965번 상자넣기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1965번 상자넣기.swift"; sourceTree = "<group>"; };
 		65E9F17B2B5E526900F9909E /* 가장 많이 받은 선물.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "가장 많이 받은 선물.swift"; sourceTree = "<group>"; };
 		65E9F17C2B5E7FF000F9909E /* 도넛과 막대 그래프.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "도넛과 막대 그래프.swift"; sourceTree = "<group>"; };
 		65EB5F042AB5D261008286A3 /* 1697번 숨바꼭질.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697번 숨바꼭질.swift"; sourceTree = "<group>"; };
@@ -2163,6 +2166,16 @@
 			path = 24.02.07;
 			sourceTree = "<group>";
 		};
+		65E60FE62B74B8DA001B9E47 /* 24.02.08 */ = {
+			isa = PBXGroup;
+			children = (
+				65E60FE82B74CCFE001B9E47 /* 14888번 연산자 끼워넣기.swift */,
+				65E60FE92B74D032001B9E47 /* 9656번 돌 게임 2.swift */,
+				65E60FEA2B74D3C1001B9E47 /* 1965번 상자넣기.swift */,
+			);
+			path = 24.02.08;
+			sourceTree = "<group>";
+		};
 		65E9F17A2B5E524E00F9909E /* 24.01.22 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2234,6 +2247,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65E60FE62B74B8DA001B9E47 /* 24.02.08 */,
 				65E60FE22B738B88001B9E47 /* 24.02.07 */,
 				65E60FDF2B70CAB9001B9E47 /* 24.02.05 */,
 				65E60FDA2B6F58DF001B9E47 /* 24.02.04 */,
