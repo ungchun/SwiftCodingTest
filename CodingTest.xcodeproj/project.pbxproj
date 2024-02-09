@@ -569,6 +569,9 @@
 		65E60FE92B74D032001B9E47 /* 9656번 돌 게임 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9656번 돌 게임 2.swift"; sourceTree = "<group>"; };
 		65E60FEA2B74D3C1001B9E47 /* 1965번 상자넣기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1965번 상자넣기.swift"; sourceTree = "<group>"; };
 		65E60FEB2B74DF8D001B9E47 /* 1107번 리모컨.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1107번 리모컨.swift"; sourceTree = "<group>"; };
+		65E60FED2B75FF14001B9E47 /* 2565번 전깃줄.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2565번 전깃줄.swift"; sourceTree = "<group>"; };
+		65E60FEE2B760291001B9E47 /* 2470번 두 용액.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2470번 두 용액.swift"; sourceTree = "<group>"; };
+		65E60FEF2B760DB8001B9E47 /* 1068번 트리.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1068번 트리.swift"; sourceTree = "<group>"; };
 		65E9F17B2B5E526900F9909E /* 가장 많이 받은 선물.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "가장 많이 받은 선물.swift"; sourceTree = "<group>"; };
 		65E9F17C2B5E7FF000F9909E /* 도넛과 막대 그래프.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "도넛과 막대 그래프.swift"; sourceTree = "<group>"; };
 		65EB5F042AB5D261008286A3 /* 1697번 숨바꼭질.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1697번 숨바꼭질.swift"; sourceTree = "<group>"; };
@@ -2178,6 +2181,16 @@
 			path = 24.02.08;
 			sourceTree = "<group>";
 		};
+		65E60FEC2B75FF03001B9E47 /* 24.02.09 */ = {
+			isa = PBXGroup;
+			children = (
+				65E60FED2B75FF14001B9E47 /* 2565번 전깃줄.swift */,
+				65E60FEE2B760291001B9E47 /* 2470번 두 용액.swift */,
+				65E60FEF2B760DB8001B9E47 /* 1068번 트리.swift */,
+			);
+			path = 24.02.09;
+			sourceTree = "<group>";
+		};
 		65E9F17A2B5E524E00F9909E /* 24.01.22 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2249,6 +2262,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65E60FEC2B75FF03001B9E47 /* 24.02.09 */,
 				65E60FE62B74B8DA001B9E47 /* 24.02.08 */,
 				65E60FE22B738B88001B9E47 /* 24.02.07 */,
 				65E60FDF2B70CAB9001B9E47 /* 24.02.05 */,
