@@ -563,6 +563,7 @@
 		65DC0C722AB33EF300CEAF92 /* 2468번 안전 영역.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2468번 안전 영역.swift"; sourceTree = "<group>"; };
 		65E513EB2B8B25400070FEF4 /* 10971번 외판원 순회 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10971번 외판원 순회 2.swift"; sourceTree = "<group>"; };
 		65E513EC2B8B2C980070FEF4 /* 2529번 부등호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2529번 부등호.swift"; sourceTree = "<group>"; };
+		65E513EE2B91B2CB0070FEF4 /* 18353번 병사 배치하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18353번 병사 배치하기.swift"; sourceTree = "<group>"; };
 		65E60FDB2B6F58EE001B9E47 /* 10971번 외판원 순회 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10971번 외판원 순회 2.swift"; sourceTree = "<group>"; };
 		65E60FDC2B6F5D6C001B9E47 /* 17103번 골드바흐 파티션.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17103번 골드바흐 파티션.swift"; sourceTree = "<group>"; };
 		65E60FDD2B6F6818001B9E47 /* 20902번 영단어 암기는 괴로워.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20902번 영단어 암기는 괴로워.swift"; sourceTree = "<group>"; };
@@ -2198,6 +2199,14 @@
 			path = 24.02.25;
 			sourceTree = "<group>";
 		};
+		65E513ED2B91B2BB0070FEF4 /* 24.03.01 */ = {
+			isa = PBXGroup;
+			children = (
+				65E513EE2B91B2CB0070FEF4 /* 18353번 병사 배치하기.swift */,
+			);
+			path = 24.03.01;
+			sourceTree = "<group>";
+		};
 		65E60FDA2B6F58DF001B9E47 /* 24.02.04 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2385,6 +2394,7 @@
 		BC87721B28463E360098482C /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				65E513ED2B91B2BB0070FEF4 /* 24.03.01 */,
 				65E513EA2B8B252A0070FEF4 /* 24.02.25 */,
 				6567B8AD2B887A4900D91FC6 /* 24.02.23 */,
 				6567B8AA2B8728A500D91FC6 /* 24.02.22 */,
